@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,24 +10,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        tools:ignore="UselessParent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/StartButtonMainMenu"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:text="Start" />
+            android:text="Start"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/DictionaryButtonMainMenu"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:text="Add new word" />
+            android:text="Dictionary"
+            tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/ExitButtonMainMenu"
             android:layout_width="150dp"
             android:layout_height="100dp"
-            android:text="Exit" />
+            android:text="Exit"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 </LinearLayout>
