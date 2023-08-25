@@ -25,7 +25,7 @@ class GameModule : ComponentActivity() {
     }
 
     private fun startCheckYourself() {
-        setContentView(R.layout.words)
+        setContentView(R.layout.game)
         initializeFlashcardViews()
         loadRandomWord()
 

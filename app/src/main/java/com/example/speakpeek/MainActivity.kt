@@ -20,8 +20,8 @@ class MainActivity : ComponentActivity() {
             startActivity(Intent(this, GameModule::class.java))
         }
 
-        val addWord: Button = findViewById(R.id.DictionaryButtonMainMenu)
-        addWord.setOnClickListener {
+        val dictionary: Button = findViewById(R.id.DictionaryButtonMainMenu)
+        dictionary.setOnClickListener {
             startActivity(Intent(this, DictionaryModule::class.java))
         }
 

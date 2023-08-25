@@ -26,6 +26,7 @@
         </activity>
 
         <activity android:name=".GameModule" />
+        <activity android:name=".AddWordModule" />
         <activity android:name=".DictionaryModule" />
     </application>
 </manifest>
